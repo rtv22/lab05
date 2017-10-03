@@ -81,15 +81,15 @@ $ git push origin master
 ```
 
 ```ShellSession
-$ travis lint
-$ travis accounts
-$ travis sync
-$ travis repos
-$ travis enable
-$ travis whatsup
-$ travis branches
-$ travis history
-$ travis show
+$ travis lint - показывает предупреждения в .travis.yml
+$ travis accounts - показывает текущий аккаунт
+$ travis sync - начинает новую синхронизацию с github аккаунтом
+$ travis repos - показать все репозитории, которые пользователь сделал доступными
+$ travis enable - добавляет репозиторий к системе travis
+$ travis whatsup - показывает недавние сборки
+$ travis branches - показывает недавние сборки для каждой ветки
+$ travis history - показывет историю сборки проекта
+$ travis show - показывает сборку или задание
 ```
 
 ## Report
